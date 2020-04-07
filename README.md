@@ -34,8 +34,8 @@ A aplicação não  permite um novo cadastro  de um cpf ou cnpj já registrado n
 ### Backend
 
 ```
-- cd teste-firgun.
-- code . ou abra no editor de texto.
+- cd backend.
+- code . ou abra a pasta backend no editor de texto.
 - yarn ou npm install.
 - npx sequelize db:create `**cria o banco de dados**`.
 abra a pasta db, localizada na pasta backend e importe o arquivo Dumpt_teste_firgun.sql para o banco de dados
@@ -46,8 +46,8 @@ abra a pasta db, localizada na pasta backend e importe o arquivo Dumpt_teste_fir
 ### Frontend
 
 ```
-- cd teste-firgun
-- code . ou abra no editor de texto
+- cd frontend
+- code . ou abra a pasta frontend no editor de texto
 - yarn ou npm install
 - yarn start ou npm start para startar o sistema
 ```
