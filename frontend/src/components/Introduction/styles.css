@@ -1,0 +1,12 @@
+.introduction-content {
+  padding: 20px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.introduction-content h2 {
+  margin: 20px 0;
+}
+.introduction-content p {
+  margin: 20px 0;
+}

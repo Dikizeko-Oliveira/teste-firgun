@@ -1,0 +1,87 @@
+.logon-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logon-container .introduction img {
+  padding: 20px;
+}
+.logon-container form {
+  max-width: 650px;
+  width: 100%;
+  padding: 20px;
+  margin-left: auto;
+}
+.logon-container form .form-top {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-bottom: 1px solid #ffde00;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.logon-container form .form-top strong {
+  color: #3ba6ff;
+  cursor: pointer;
+}
+.logon-container form .input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.logon-container .input-group label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 10px;
+  color: #aaaaaa;
+}
+.logon-container .input-group label input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  color: #292929;
+}
+
+.logon-container form button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #3ba6ff;
+  border: none;
+  width: 150px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.logon-container form button:hover {
+  filter: brightness(90%);
+}
+
+/* ====== Small devices =======*/
+@media only screen and (max-width: 500px) {
+  .logon-container,
+  .logon-container form .input-group {
+    flex-direction: column;
+  }
+  .logon-container form h2 {
+    margin-left: 0 !important;
+  }
+  .logon-container form .input-group label {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .logon-container {
+    flex-direction: column;
+  }
+
+  .logon-container form {
+    max-width: 100% !important;
+  }
+}
