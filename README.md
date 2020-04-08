@@ -13,6 +13,8 @@
 Aplicação de cadastro de pedidos, realiza cadastros de pedidos de usuários registrados no sistema, os mesmos poderão consultar e alterar seus dados. O admin apenas visualiza todos os cadastros feitos por esses usuários sem poder alterá-los já que não é o proprietário dos dados.
 A aplicação não  permite um novo cadastro  de um cpf ou cnpj já registrado no sistema, ou seja cada usuário poderá fazer apenas um pedido por cpf ou cnpj.
 
+- NOTA : Já existe um usuário padrão admin cadastrado no banco de dados. com o email de acesso = admin@gmail.com e senha = admin.
+
 ## Tecnologias
 
 ### Backend
