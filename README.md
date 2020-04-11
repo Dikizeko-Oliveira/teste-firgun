@@ -39,6 +39,7 @@ A aplicação não  permite um novo cadastro  de um cpf ou cnpj já registrado n
 - cd backend.
 - code . ou abra a pasta backend no editor de texto.
 - yarn ou npm install.
+- yarn add sequelize ou npm install --save sequelize
 - npx sequelize db:create `**cria o banco de dados**`.
 abra a pasta db, localizada na pasta backend e importe o arquivo Dumpt_teste_firgun.sql para o banco de dados
 `**teste_firgun**` que acabaras de criar no passo anterior.
