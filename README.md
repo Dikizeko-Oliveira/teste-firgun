@@ -13,6 +13,8 @@
 Aplicação de cadastro de pedidos, realiza cadastros de pedidos de usuários registrados no sistema, os mesmos poderão consultar e alterar seus dados. O admin apenas visualiza todos os cadastros feitos por esses usuários sem poder alterá-los já que não é o proprietário dos dados.
 A aplicação não  permite um novo cadastro  de um cpf ou cnpj já registrado no sistema, ou seja cada usuário poderá fazer apenas um pedido por cpf ou cnpj.
 
+- NOTA : Já existe um usuário padrão admin cadastrado no banco de dados. com o email de acesso = admin@gmail.com e senha = admin.
+
 ## Tecnologias
 
 ### Backend
@@ -30,34 +32,25 @@ A aplicação não  permite um novo cadastro  de um cpf ou cnpj já registrado n
 - Toastify
 
 ## Como usar
+- git clone https://github.com/Dikizeko-Oliveira/teste-firgun.git 
+### Backend
+
+```
+- cd backend.
+- code . ou abra a pasta backend no editor de texto.
+- yarn ou npm install.
+- yarn add sequelize ou npm install --save sequelize
+- npx sequelize db:create `**cria o banco de dados**`.
+abra a pasta db, localizada na pasta backend e importe o arquivo Dumpt_teste_firgun.sql para o banco de dados
+`**teste_firgun**` que acabaras de criar no passo anterior.
+- execute yarn dev ou npm run dev para startar o servidor
+```
 
 ### Frontend
 
 ```
-git clone https://github.com/Dikizeko-Oliveira/teste-firgun.git caso ainda tenhas rodado este comando 
-cd teste-firgun
-code . ou abra no editor de texto
-yarn ou npm install
-yarn start ou npm start
+- cd frontend
+- code . ou abra a pasta frontend no editor de texto
+- yarn ou npm install
+- yarn start ou npm start para startar o sistema
 ```
-### Backend
-
-```
-git clone https://github.com/Dikizeko-Oliveira/teste-firgun.git caso ainda tenhas rodado este comando 
-cd teste-firgun
-code . ou abra no editor de texto
-yarn ou npm install
-npx sequelize db:create `` cria o banco de dados``
-abra a pasta db, localizada na pasta backend
-```
-### Code of Conduct
-
-We expect you to follow our [Code of Conduct](/.github/CODE_OF_CONDUCT.md). You can read it to understand what kind of behaviour will and will not be tolerated.
-
-## Need help?
-
-If you need help with Unform, feel free to open an issue with a description of the problem you're facing or, if you prefer, you can chat with us on our [Discord Community](https://discordapp.com/invite/gCRAFhc).
-
-## License
-
-MIT © [Rocketseat](https://github.com/Rocketseat)
