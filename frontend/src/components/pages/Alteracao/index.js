@@ -55,7 +55,7 @@ const schema = Yup.object().shape({
 
 export default function Alteracao() {
   const [showSideDrawer, setShowSideDrawer] = useState(false);
-  const [name, setName] = useState("Nome");
+  const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
   const [email, setEmail] = useState("");
   const [telephone, setTelephone] = useState("");
